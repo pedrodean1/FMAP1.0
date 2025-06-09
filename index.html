@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FranchMap</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>FranchMap</h1>
+  <form id="form">
+    <input type="text" id="franchise" placeholder="Franquicia (ej. Starbucks)" required />
+    <input type="text" id="city" placeholder="Ciudad (ej. Miami, FL)" required />
+    <button type="submit">Buscar</button>
+  </form>
+  <div id="map"></div>
+  <button id="exportBtn">Exportar resultados</button>
+  <script src="script.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_API_KEY&callback=initMap"></script>
+</body>
+</html>

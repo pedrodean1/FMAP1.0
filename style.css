@@ -1,0 +1,9 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+#map {
+  height: 500px;
+  width: 100%;
+  margin-top: 20px;
+}
